@@ -1,0 +1,272 @@
+
+/* Typewriter effect styling */
+
+.vl {
+  border-left: 6px solid rgb(187, 92, 130);
+  height: 50px;
+  margin-left: 320px;
+}
+.text-center{
+  margin-left: 280px;
+
+}
+.text-gray-700{
+  margin-left: 280px;
+}
+.text-2-gray-700{
+  margin-left: 250px;
+}
+
+/*-------------Upload----------------------------*/
+/* Container for Left and Right Breast Images */
+.images-container {
+  display: flex;
+  justify-content: space-between; /* Align images next to each other */
+  gap: 20px; /* Space between the images */
+  flex-wrap: wrap; /* Ensure images wrap on small screens */
+}
+
+/* For left breast image */
+.left-breast-image {
+  border: 3px solid #FF6347; /* Red border for left breast */
+  border-radius: 10px;
+  padding: 5px;
+  width: 4%; /* Adjusted width for a larger size */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  max-width: 500px; /* You can set a max-width for a more consistent size */
+}
+
+/* For right breast image */
+.right-breast-image {
+  border: 3px solid #4682B4; /* Blue border for right breast */
+  border-radius: 10px;
+  padding: 5px;
+  width: 4%; /* Adjusted width for a larger size */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  max-width: 500px; /* You can set a max-width for a more consistent size */
+}
+
+/* General Image Preview */
+.image-preview img {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+
+header .typewriter-container {
+  position: relative;
+  display: inline-block;
+  font-size: 1000px; /* Increased font size for typewriter effect */
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+header .typewriter-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black overlay */
+  z-index: 1;
+}
+
+header .typewriter {
+  position: relative;
+  z-index: 2;
+}
+
+/* ------------------------------------footer-----------------------------*/
+.circle-image {
+  width: 138px; /* Set the desired size of the circle */
+  height: 128px; /* Make the height equal to width to maintain a circle */
+  border-radius: 50%; /* Makes the div circular */
+  overflow: hidden; /* Ensures content outside the circle is clipped */
+  background-size: cover; /* Ensures the image covers the circle */
+  background-position: center; /* Centers the image inside the circle */
+  border: 4px solid white; /* Optional: adds a white border around the circle */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  margin-left: 250px;
+}
+.circle-image1 {
+  width: 180px; /* Set the desired size of the circle */
+  height: 160px; /* Make the height equal to width to maintain a circle */
+  border-radius: 25%; /* Makes the div circular */
+  overflow: hidden; /* Ensures content outside the circle is clipped */
+  background-size: cover; /* Ensures the image covers the circle */
+  background-position: center; /* Centers the image inside the circle */
+  border: 4px solid white; /* Optional: adds a white border around the circle */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  margin-left: 500px;
+}
+.circle-image-foot {
+  width: 138px; /* Set the desired size of the circle */
+  height: 128px; /* Make the height equal to width to maintain a circle */
+  border-radius: 50%; /* Makes the div circular */
+  overflow: hidden; /* Ensures content outside the circle is clipped */
+  background-size: cover; /* Ensures the image covers the circle */
+  background-position: center; /* Centers the image inside the circle */
+  border: 4px solid white; /* Optional: adds a white border around the circle */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  
+}
+.circle-image-foot2 {
+  width: 138px; /* Set the desired size of the circle */
+  height: 128px; /* Make the height equal to width to maintain a circle */
+  border-radius: 50%; /* Makes the div circular */
+  overflow: hidden; /* Ensures content outside the circle is clipped */
+  background-size: cover; /* Ensures the image covers the circle */
+  background-position: center; /* Centers the image inside the circle */
+  border: 4px solid white; /* Optional: adds a white border around the circle */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+ 
+}
+foot1 {
+  
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* Custom styling for the footer */
+footer {
+  background-color: #ec4f7e; /* Pink color background */
+  color: white;
+  padding: 40px;
+  border-radius: 1.5rem 1.5rem 0 0;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+footer .font-semibold {
+  font-weight: 600;
+}
+
+footer .mt-3 {
+  margin-top: 0.75rem;
+}
+
+footer .text-lg {
+  font-size: 1.125rem;
+}
+
+footer .text-sm {
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+footer .space-x-6 a {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+footer .space-x-6 a:hover {
+  color: #f7b0c7; /* Light pink on hover */
+}
+
+footer .flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Add more specific rules for social icons if necessary */
+footer .text-2xl {
+  font-size: 1.5rem;
+}
+/*----------------------------------------app.js-----------------------------*/
+
+/* General page styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fff0f5, #ffe4e6); /* light pink gradient */
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: #ec4899; /* pink-500 */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+nav {
+  background-color: #be185d; /* pink-700 */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav button:hover {
+  color: #fbcfe8; /* pink-200 */
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.2);
+  max-width: 800px;
+}
+
+/* Footer */
+footer {
+  background-color: #be185d; /* pink-700 */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 2rem;
+}
+
+/* Upload File Input */
+input[type="file"] {
+  border: 1px solid #d1d5db; /* gray-300 */
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
